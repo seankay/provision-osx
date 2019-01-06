@@ -1,0 +1,61 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dot_files: yes
+
+dotfiles_repo: https://github.com/seankay/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_version: master
+dotfiles_repo_local_destination: ~/.dotfiles
+dotfile_followup_commands:
+  - echo hi
+  - echo bye
+
+homebrew_installed_packages:
+  - awscli
+  - fzf
+  - go
+  - macvim
+  - node
+  - pyenv
+  - rbenv
+  - terraform
+  - the_silver_searcher
+  - universal-ctags/universal-ctags/universal-ctags
+  - zsh
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - dropbox
+  - firefox
+  - google-chrome
+  - slack
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+gem_packages: []
+  # - name: bundler
+  #   state: present # present/absent/latest, default: present
+  #   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+  # - name: webpack
+  #   state: present # present/absent/latest, default: present
+  #   version: "^2.6" # default: N/A
+pip_packages: []
+  # - name: mkdocs
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
