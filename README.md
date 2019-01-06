@@ -1,5 +1,5 @@
 # Usage
 ```bash
 $> pip install ansible
-$> ./setup.sh
+$> ./provision.sh
 ```

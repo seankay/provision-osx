@@ -21,8 +21,8 @@
   tasks:
     - include_tasks: tasks/ansible-setup.yml
 
-    - include_tasks: tasks/dotfiles.yml
-      when: configure_dotfiles
+    - include_tasks: tasks/dot-files.yml
+      when: configure_dot_files
 
     - include_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']

@@ -6,7 +6,3 @@
     version: "{{ dotfiles_repo_version }}"
     accept_hostkey: "{{ dotfiles_repo_accept_hostkey }}"
   become: false
-
-- name: Followup commands
-  command: " {{ item }}"
-  with_items: "{{ dotfile_followup_commands }}"
