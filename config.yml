@@ -12,7 +12,7 @@ homebrew_installed_packages:
   - awscli
   - fzf
   - go
-  - macvim
+  - neovim
   - node
   - python
   - python@2
