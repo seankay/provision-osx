@@ -30,7 +30,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - aws-vault
   - docker
-  - dropbox
+  - google-backup-and-sync
   - google-chrome
   - slack
   - 1password
