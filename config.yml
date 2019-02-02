@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - terraform
   - the_silver_searcher
   - { name: universal-ctags/universal-ctags/universal-ctags, install_options: "HEAD" }
+  - tmux
   - zsh
 
 homebrew_taps:
@@ -63,6 +64,7 @@ pip_packages:
   #   version: "0.16.3" # default: N/A
   - name: yapf
   - name: flake8
+  - name: tmuxp
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
