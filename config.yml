@@ -22,7 +22,6 @@ homebrew_installed_packages:
   - the_silver_searcher
   - { name: universal-ctags/universal-ctags/universal-ctags, install_options: "HEAD" }
   - tmux
-  - reattach-to-user-namespace
   - zsh
 
 homebrew_taps:
