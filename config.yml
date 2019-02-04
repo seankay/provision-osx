@@ -10,6 +10,7 @@ dotfiles_repo_local_destination: ~/.dotfiles
 
 homebrew_installed_packages:
   - awscli
+  - bash-completion
   - fzf
   - go
   - neovim
