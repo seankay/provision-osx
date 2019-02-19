@@ -42,6 +42,7 @@ homebrew_cask_apps:
   - caffeine
   - postman
   - spectacle
+  - iterm2
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []

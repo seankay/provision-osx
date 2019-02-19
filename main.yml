@@ -27,5 +27,3 @@
     - include_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 
-    - name: Execute the script
-      command: sh sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
