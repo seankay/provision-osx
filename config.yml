@@ -9,6 +9,7 @@ dotfiles_repo_version: master
 dotfiles_repo_local_destination: ~/.dotfiles
 
 homebrew_installed_packages:
+  - antigen
   - awscli
   - bash-completion
   - fzf
