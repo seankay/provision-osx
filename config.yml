@@ -43,6 +43,7 @@ homebrew_cask_apps:
   - postman
   - spectacle
   - iterm2
+  - istat-menus
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
