@@ -15,6 +15,7 @@ homebrew_installed_packages:
   - fzf
   - go
   - gnupg
+  - jq
   - neovim
   - node
   - python
