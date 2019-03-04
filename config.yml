@@ -71,6 +71,7 @@ pip_packages:
   - name: yapf
   - name: flake8
   - name: tmuxp
+  - name: neovim
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
