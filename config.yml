@@ -26,7 +26,6 @@ homebrew_installed_packages:
   - { name: universal-ctags/universal-ctags/universal-ctags, install_options: "HEAD" }
   - tmux
   - trash-cli
-  - zsh
 
 homebrew_taps:
   - homebrew/core
